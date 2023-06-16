@@ -1,0 +1,227 @@
+<html>
+<head>
+   <title>forms</title>
+<style type="text/css">
+  body{
+     
+background-image: url("images/clouds-bg.jpg");
+       }  
+  table{
+      font-style:bold;
+      font-size:17px;
+       }
+
+  button{
+     background-color:blue;
+     color :white;
+      }
+::placeholder{
+        color:blue;
+       }
+select{
+       color:blue;
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+      font-size:1purple4px;
+       font-color:purple;
+       }
+ input[type=text] {
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+      font-size:12px;
+       color:purple;
+    }input[type=email] {
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+      font-size:12px;
+       color:purple;
+    }input[type=password] {
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+      font-size:12px;
+       color:purple;
+    }input[type=number] {
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+       font-size:12px;
+       color:purple;
+    }input[type=date] {
+       padding :5px;
+       border:2px solid black;
+       border-radius:5px;
+       background-color:smoke;
+       font-style:italic;
+      font-size:12px;
+       color:purple;
+    }
+</style>
+</head>
+<body>
+<h2><marquee bgcolor="gray">REGISTRATION FORM</marquee></h2>
+<br>
+<font color= black>
+<form>
+<center>
+<table> 
+ <tr> 
+   <td> 
+       NAME 
+     </td>
+   <td>
+     <input type="text"placeholder="NAME">
+    </td>
+</tr>
+<tr>
+    <td>
+       ENTER
+       EMAIL
+     </td>
+   <td>
+    <input type="email"placeholder="EMAIL">
+   </td>
+</tr>
+<tr>
+   <td>
+   Enter
+   Gender
+   </td>
+  <td>
+    <input type="radio" value="female"name="gender"> female
+   <input type="radio" value="male"name="gender"> male
+    <input type="radio" value="other"name="gender"> other
+    </td>
+</tr>
+<tr>
+    <td> 
+     DATE OF
+      BIRTH</td>
+    <td>
+     <input type="date" placeholder="enter date of birth">
+   </td>
+</tr>
+<tr>
+    <td> PIN 
+    CODE</td>
+   <td><input type="number" placeholder="NUMBER" name="  ">
+    <td></tr>
+ <tr>
+  <td> PHONE 
+   NUMBER
+      </td>
+    <td>
+       <select>
+     <option>
+      +91
+    </option>
+     <option>
+     +76
+    </option>
+     <option>
+    +29
+    </option>
+    <option>
+    +67
+    </option>
+      <option>
+  +85
+    </option>
+     <option>
+    </option> <input type ="number" placeholder = PHONENUMBER name =" "> 
+      </select>
+        <td>
+    </tr>
+<tr>
+       <td>
+       RELIGION
+        </td>
+     
+        <td>
+       <select>
+    <option>
+          MUSLIM
+    </option>
+    <option>
+          HINDU
+     </option>
+     <option>
+          CHRISTIAN
+     </option>
+    <option>
+         JEWES
+     </option>
+  </select>
+       </td>
+    </tr>
+       <tr>
+        <td>
+       CHOOSE COLLEGE   
+
+      </ td>
+        <td>
+       <select>
+       <option>
+         SHRI GNANAMBICA DEGREE COLLEGE
+         </option>
+         <option>
+         SRI SRINIVASA DEGREE COLLEGE
+        </option>
+     <option>
+       SHRI VISHWAHEETHA DEGREE COLLEGE
+    </option>
+        <option>
+       SHRI  SIDDARTHA DEGREE COLLEGE
+</option>
+       </select>
+</td>
+          
+    </tr>
+    <tr>
+    <td>
+       GROUP NAME 
+     </td>
+   <td>
+     <select>
+    <option>
+   BCA 
+   </option>
+  <option>
+   B.COM
+   </option>
+  <option>
+   BSC(AGRICULTURE)
+   </option>
+  <option>
+   BSC(MECS)
+   </option>
+<option>
+    (BSC) BZC 
+   </option>
+    </select>
+  </td>
+   </tr>
+  <tr>
+ <td>
+<br>
+  <button> submit<submit>
+ </td>
+</tr>
+</table>
+</center>
+</form> 
+</body>
+</html>
